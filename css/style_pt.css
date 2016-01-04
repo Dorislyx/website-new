@@ -469,32 +469,43 @@ float:left;
 margin:0px 7px 7px 0px;
 }
 
-/***** Slideshow Stylesheet *****/
-#slideshow-wrapper {
-width: 100%;
-background:#f2f2f2 url(../images/slide-shadow.png) top repeat-x;
-float:left;	
-}
+/***** 3dbanner Stylesheet *****/
 
-#slideshow-wrapper p{
-color: #fff;
-}
 
-#camera-slide {
-height:440px !important;
+/*latest new stylesheet*/
+#latest-news{
+	width: 996px;
+	height: 250px;
+    max-width: 100%;
+    min-width: 768px;
+    margin: 10px auto;
 }
-
-#camera-slide h1
-{
-font: 28px 'Microsoft yahei';
-color: #fff;
-width: 400px;
+#latest-news h5{
+	font-size: 18px;
+	padding-left: 10px;
 }
-
-#slideshow-noscript {
-display:none;
+#latest-news ul{
+	margin: 0px;
+	padding-left:10px;
 }
-
+#latest-news ul li{
+	float: left;
+}
+.latest-news-img{
+	width: 500px;
+	height: 215px;
+}
+.latest-news-ifo{
+	width: 466px;
+	height: 215px;
+	background-color: #F1F1F1;
+	padding: 0px 10px 0px 30px;
+}
+.latest-news-ifo h5{
+	margin-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+}
 /***** About Area Stylesheet *****/
 .heading-thin {
 font-weight:400;
