@@ -658,6 +658,18 @@ text-transform:uppercase;
 margin-bottom:0px;	
 }
 
+.fontifo{
+	margin-top: 25px;
+}
+
+.fontifo p{
+	line-height: 0.6em;
+}
+
+.infoimg img{
+	overflow: hidden;
+	vertical-align: top;
+}
 .serv-desc {
 margin-bottom:20px;
 overflow:hidden;

@@ -194,3 +194,48 @@ border-top: none;
 -moz-box-shadow: 0 0px 7px #ddd;
 box-shadow: 0 0px 7px #ddd;
 }
+
+/*ABOUT US*/
+.map-img{
+	width: 930px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+.map-img img{
+	width: 930px;
+	height: auto;
+}
+.ourteam{
+	margin: 0 auto;
+	padding: 10px 50px;
+}
+.team-ifo{
+	overflow: hidden;
+}
+.team-ifo li{
+	float: left;
+	width: 25%;
+	padding: 25px;
+}
+.team-ifo p {
+	border-bottom: 2px solid #F1F1F1;
+	margin: 5px 0px;
+	padding: 0;
+}
+.team-ifo p span{
+ padding-right: 10px;
+}
+.Clients-wrap{
+	margin: 0 auto;
+}
+.Clients-wrap ul{
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+}
+.Clients-wrap ul li{
+	float: left;
+	width: 33%;
+}
+
