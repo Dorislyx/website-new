@@ -59,6 +59,30 @@ img { -ms-interpolation-mode: bicubic; }
 .row:before, .row:after { content: ""; display: table; }
 .row:after { clear: both; }
 
+
+/* contact us ifo */
+#contactus{
+	overflow: hidden;
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+
+#contactus li{
+	float: left;
+	width: 50%;
+	height: 50%;
+	padding: 5px;
+}
+#contactus h4{
+	width: 80%;
+	height: 30px;
+	font-family: arial;
+	color: #01AEEF;
+	font-weight: 100;
+	border-bottom: 2px solid #F1F1F1;
+}
+
 /* Mobile Grid and Overrides ---------------------- */
 @media only screen and (max-width: 768px) { body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
 .row { width: auto; min-width: 0; margin-left: 0; margin-right: 0; }
@@ -70,6 +94,9 @@ img { -ms-interpolation-mode: bicubic; }
 .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten { margin-left: 0 !important; }
 .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { left: auto; }
 .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { right: auto; }
+
+
+
 
 /* Mobile 4-column Grid */
 .row .mobile-one { width: 25% !important; float: left; padding: 0 15px; }
