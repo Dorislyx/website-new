@@ -233,9 +233,13 @@ box-shadow: 0 0px 7px #ddd;
 	width: 100%;
 	height: 300px;
 	margin: 0 auto;
+	padding-left: 60px;
 }
 .Clients-wrap ul li{
 	float: left;
 	width: 33%;
 }
-
+.Clients-wrap ul li p{
+	padding-right: 40px;
+	text-align: center;
+}
