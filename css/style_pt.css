@@ -868,6 +868,7 @@ float:left;
 
 .blog-post img {
 margin-bottom:16px;
+width: 850px;
 }
 
 .post-info {
@@ -924,7 +925,7 @@ padding:0 0 0 24px;
 }
 
 .post-content {
-width:75%;
+width:100%;
 float:left;	
 }
 
@@ -942,6 +943,31 @@ color:#565555;
 text-decoration:none;	
 }
 
+.post-content span{
+	font-size: 16px;
+	color: #999999;
+}
+.post-content p a{
+	color: #01AEEF;
+	text-decoration: none;
+}
+.readmore{
+	font-size: 16px;
+	color: #01AEEF;
+	float: right;
+}
+.pagenew{
+	width: 80%;
+	color: #999999;
+}
+.newprev{
+	float: left;
+	color: #999999;
+}
+.newnext{
+	float: right;
+	color: #999999;
+}
 .big-date {
 margin:0px 0px 0px 0px;
 font-size:54px;
