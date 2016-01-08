@@ -245,3 +245,153 @@ box-shadow: 0 0px 7px #ddd;
 	padding-right: 40px;
 	text-align: center;
 }
+
+/**********************product details star here*****************/
+#productdt{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.productimg{
+	float: left;
+	width: 45%;
+	height: 400px;
+	position: relative;
+}
+.productif{
+	float: right;
+	width: 52%;
+	height: 400px;
+	/*background-color: #46C7C7;*/
+}
+
+/*#box img{
+	width:100% ;
+	/height: 300px;
+}*/
+.ahover{
+	border: 1px solid #00B4F8;
+}
+#box{
+	width: 100%;
+	height: 330px;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.zoompic{
+	width: 500px;
+	height: 500px;
+	background-color: #01AEEF;
+	position: absolute;
+	left: 470px;
+	top: 0px;
+}
+.zoomeye{
+	width: 100px;
+	height: 100px;
+	opacity: 0.3;
+	background-color: #01AEEF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #F1F1F1;
+}
+.list{
+	width: auto;
+	height: 100px;
+	overflow: hidden;
+	padding-left: 30px;
+	position: absolute;
+	left: 0;	
+}
+.list li{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.list li img{
+	width: 100px;
+	height: 100px;
+}
+#btn{
+	width: 470px;
+	position: relative;	
+	color: #999999;
+	font-size: 28px;
+	margin-top: 30px;
+	height: 100px;
+	overflow: hidden;
+}
+#prevbtn{
+	width: 20px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+}
+#nextbtn{
+	width: 20px;
+	height: 100px;
+	position: absolute;
+	right: 10px;
+	top:0px;
+}
+.Highlights ul li{
+	list-style: circle;
+}
+#specificatton{
+	width: 100%;
+	height: 900px;
+	
+}
+.specificattonifo{
+	max-width: 1040px;
+    margin: 0px auto;
+    padding: 51px 0px 42px 0px;
+    clear: both;
+}
+.titlesp{
+	width: 100%;
+	background-color: #F1F1F1;
+	height: 50px;
+	line-height: 50px;
+	margin: 0px auto;
+}
+.titleifo{
+	/*display: inline-block;
+	max-width: 1040px;
+	height: 50px;*/
+	padding-left: 23%;
+}
+.specificattonifo{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.Hardware{
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+
+.Accesorries{
+	width: 50%;
+	height: 400px;
+	float: right;
+	/*background-color: #0084B6;*/
+}
+.Software{
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+.Hardwarebg{
+	background-color: #F1F1F1;
+	text-align: center;
+}
+.Hardwarefo{
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+/**********************product details endr here*****************/
