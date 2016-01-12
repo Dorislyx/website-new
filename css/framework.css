@@ -656,3 +656,79 @@ li[class=d_pos5]{
 	height: 450px;
 }
 /**********************index 3dbanner end here*****************/
+
+
+/**********************product list str here*****************/
+#productlistnew{
+	width: 100%;
+	height: 300px;
+	/*background-color: #D7F7DF;*/
+}
+
+#iptv{
+	width: 100%;
+	height: 300px;
+	/*background-color: #F0F0F0;*/
+}
+
+#hydrid{
+	width: 100%;
+	height: 300px;
+	/*background-color: #01AEEF;*/
+}
+
+#media{
+	width: 100%;
+	height: 300px;
+	/*background-color: #389F9F;*/
+}
+
+.producttitle{
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+.proleft{
+	width: 45%;
+	height: 15px;
+	float: left;
+	border-bottom: 2px solid #01AEEF;
+}
+
+.centerfont{
+	width: 10%;
+	height: 30px;
+	float: left;
+	text-align: center;
+	color: #666666;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.proright{
+	width: 45%;
+	height: 15px;
+	float: left;
+	border-bottom: 2px solid #01AEEF;
+}
+.prolist{
+	width: 100%;
+	height: auto;
+}
+.prolist li{
+	width: 25%;
+	height: 200px;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.prorow{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.prorow img{
+	width: 15px;
+}
+    		
+/**********************product list end here*****************/
