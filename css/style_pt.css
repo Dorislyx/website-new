@@ -9,9 +9,10 @@ padding:0;
 
 /***** Shared Stylesheet *****/
 #main-wrapper {
-max-width: 960px;
-margin: 0px auto;
+max-width: 1040px;
+margin: 25px auto;
 }
+
 /*client logo color*/
 #featured-wrapper{
 width: 100%;
@@ -24,7 +25,7 @@ float:left;
 #content-wrapper {
 max-width: 1040px;
 margin:0px auto;
-padding:51px 0px 42px 0px;
+padding:35px 0px 42px 0px;
 clear:both;
 }
 
@@ -42,16 +43,16 @@ float:left;
 }
 
 .pagetitle-content {
-width:960px;
+width:1040px;
 margin:0 auto;	
 }
 
-.pagetitle-content h2 {
+.pagetitle-content h5 {
 color:#000000;
 text-shadow:0px 1px 1px #fff;
 text-transform:uppercase;
-height: 30px;
-line-height: 30px;
+height: 25px;
+line-height:25px;
 margin-top: 15px;
 }
 
@@ -64,7 +65,7 @@ float:left;
 }
 
 #breadcrumb-content {
-max-width: 960px;
+max-width:1040px;
 margin:0px auto;
 clear:both;
 }
@@ -78,7 +79,7 @@ float:left;
 color: #000000;   /*#afafaf  sub navi's setting*/
 text-shadow:0px 1px 1px #f8f8f8;
 margin-bottom:0px;
-padding:7px 24px 8px 7px;
+padding:7px 24px 8px 0px;
 background-image:url(../images/breadcrumb-arrow.png);
 background-repeat:no-repeat;
 background-position:right -1px;
@@ -224,7 +225,8 @@ margin:8px 18px 0px -25px;
 width:auto;
 margin:3px 15px 29px 0px;
 height:38px;
-float:right;
+float:left;
+padding-left: 240px;
 }
 
 #mainmenu ul {
@@ -399,6 +401,13 @@ border-bottom-left-radius: 4px;
 display:none;
 }
 
+#langenpo{
+	float: left;
+	width: 50px;
+	height: 38px;
+	/*background-color: #01BDFF;*/
+	line-height: 38px;
+}
 /* Tinynav styling */
 .tinynav {
 display:none;
@@ -434,74 +443,81 @@ color:#c6c9cc;
 /***** Top Socials Stylesheet *****/
 #top-social {
 width:100%;
-height:24px;
+height:50px;
+/*float:left;	*/
+background-color: #01BDFF;
+}
+
+
+
+/***** 3dbanner Stylesheet *****/
+
+/***** Slideshow Stylesheet *****/
+#slideshow-wrapper {
+width: 100%;
+background:#f2f2f2 url(../images/slide-shadow.png) top repeat-x;
 float:left;	
 }
 
-.social-panel {
-display: none;
-float:right;
+#slideshow-wrapper p{
+color: #fff;
 }
 
-a.trigger{
-width:24px;
-height:24px;
-text-decoration: none;
-top: 0px; right: 0;
-font-size: 0px;
-letter-spacing:-1px;
-color:#fff;
-    background:url(../images/socials/flag_pt.png) no-repeat;
-display: block;
-float:right;
+#camera-slide {
+height:440px !important;
 }
 
-a.active.trigger {
-background:url(../images/socials/flag_pt.jpg) no-repeat;
+#camera-slide h1
+{
+font: 28px 'Microsoft yahei';
+color: #fff;
+width: 400px;
 }
 
-#top-social ul li{
-margin-right:1px;
-display:inline-block;
-float:left;
+#slideshow-noscript {
+display:none;
 }
 
-ul.pricing-payment li {
-float:left;
-margin:0px 7px 7px 0px;
-}
 
-/***** 3dbanner Stylesheet *****/
+/*latest new stylesheet*/
+.indeximg{
+	background-color: #F1F1F1;
+}
+.indexcenter{
+	text-align: center;
+}
 
 
 /*latest new stylesheet*/
 #latest-news{
-	width: 996px;
+	width:1040px;
 	height: 250px;
     max-width: 100%;
     min-width: 768px;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 #latest-news h5{
 	font-size: 18px;
-	padding-left: 10px;
+	
+}
+#latest-news img{
+	width: 100%;
 }
 #latest-news ul{
 	margin: 0px;
-	padding-left:10px;
 }
 #latest-news ul li{
 	float: left;
 }
 .latest-news-img{
-	width: 500px;
+	width:50%;
 	height: 215px;
 }
 .latest-news-ifo{
-	width: 466px;
-	height: 215px;
+	width: 50%;
+	height: 223px;
 	background-color: #F1F1F1;
-	padding: 0px 10px 0px 30px;
+	padding: 0px 10px 0px 20px;
 }
 .latest-news-ifo h5{
 	margin-top: 25px;
@@ -662,6 +678,7 @@ margin-bottom:0px;
 
 .fontifo{
 	margin-top: 25px;
+	margin-bottom: 20px;
 }
 
 .fontifo p{
@@ -1022,6 +1039,7 @@ aside {
 width:100%;
 margin-bottom:30px;
 float:left;
+padding-left: 15px;
 }
 
 /* Popular List */

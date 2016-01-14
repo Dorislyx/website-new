@@ -1,7 +1,7 @@
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 /* The Grid ---------------------- */
-.row { width: 996px; max-width: 100%; min-width: 1046px; margin: 0 auto; }
+.row { width:1040px; max-width: 100%; min-width: 1040px; margin: 0 auto; }
 .row .row { width: auto; max-width: none; min-width: 0; margin: 0 -18px; }
 .row.collapse .column, .row.collapse .columns { padding: 0; }
 .row .row { width: auto; max-width: none; min-width: 0; margin: 0 -18px; }
@@ -259,7 +259,7 @@ box-shadow: 0 0px 7px #ddd;
 	position: relative;
 }
 .productif{
-	float: right;
+	float: left;
 	width: 52%;
 	height: 400px;
 	/*background-color: #46C7C7;*/
@@ -330,7 +330,9 @@ box-shadow: 0 0px 7px #ddd;
 	/*display: inline-block;
 	max-width: 1040px;
 	height: 50px;*/
-	padding-left: 23%;
+	/*padding-left: 8%;*/
+	width: 1040px;
+	margin: 0 auto;
 }
 .specificattonifo{
 	width: 100%;
@@ -372,7 +374,8 @@ box-shadow: 0 0px 7px #ddd;
 .MagnifierMain {
 	position: relative;
 	width: 400px;
-	height:400px;
+	/*height:400px;*/
+	height: 300px;
 	border: 1px solid #CCCCCC;
 	border-radius: 3px;
 }
@@ -406,15 +409,18 @@ box-shadow: 0 0px 7px #ddd;
 
 .spec-items {
 	position: relative;
-	width: 320px;
-	height:90px;
+	/*width: 320px;*/
+	width: 400px;
+	/*height:90px;*/
+	height: 100px;
 	overflow: hidden;
 	padding-top: 10px;
 	margin: 0 auto;
 }
 
 .spec-items ul {
-	width: 500%;
+	/*width: 500%;*/
+	width: 400px;
 	position: absolute;
 	top: 10px;
 	left: 0;
@@ -427,11 +433,14 @@ box-shadow: 0 0px 7px #ddd;
 }
 
 .spec-items li {
-	width: 75px;
-	height: 75px;
+	/*width: 75px;
+	height: 75px;*/
+	width: 90px;
+	height: 90px;
 	float: left;
 	overflow: hidden;
-	margin-right: 5px;
+	/*margin-right: 5px;*/
+	margin-right: 10px;
 	border: 2px solid #fff;
 	cursor: pointer;
 }
@@ -487,98 +496,27 @@ span.spe_rightBtn {
 
 
 
-/**********************index 3dbanner str here*****************/
-.banner {
-    position: relative;
-    height: 350px;
-    padding: 130px 0 16px;
-    margin: 0 auto;
-    text-align: center;
+/**********************indeximg str here*****************/
+.imglist{
+	width: 100%;
 }
 
-.dg-container {
-    position: relative;
-    width: 100%;
-    height: 180px;
+.imglist li{
+	float: left;
+	width: 24.5%;
+	height: 250px;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-left: 28px;
 }
-
-.dg-wrapper {
-    width: 700px;
-    height: 180px;
-    margin: 0 auto;
-    position: relative;
-    transform-style: preserve-3d;
-    perspective: 1000px;
+.imglist img{
+	height: 165px;
+	border-radius: 3px;
 }
-
-.dg-wrapper a {
-    width: 100%;
-    height: 180px;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
+.imglist img:hover{
+	box-shadow: 5px 5px 5px #888888; #CCCCCC;
 }
-
-.dg-wrapper a:first-child {
-    z-index: 2;
-}
-
-.dg-wrapper a img {
-    display: block;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.20);
-    border-radius: 4px;
-    width: 100%;
-    height: 180px;
-    background: #fff;
-}
-
-.dg-wrapper a.dg-transition {
-    transition: all 0.5s ease-in-out;
-}
-
-.dg-wrapper a.dg-transition-fast {
-    transition: all 0.2s ease-in-out;
-}
-
-.dg-container nav {
-    display: none;
-}
-
-.dg-container nav span:hover {
-    opacity: 1;
-}
-
-.dg-container nav span.dg-next {
-    background-position: top right;
-    margin-left: 10px;
-}
-
-.dg-container #lightButton2 {
-    bottom: 20px;
-}
-
-.dg-container .button {
-     position: relative;
-     z-index: 5;
-     margin-top: 20px;
- }
-
-.dg-container .button li {
-    cursor: pointer;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-right: 5px;
-    background: rgba(255, 255, 255, 0.30);
-    border: 1px solid rgba(0, 0, 0, 0.20);
-}
-
-.dg-container .button .light {
-    background: #01BDFF;
-}
-/**********************index 3dbanner end here*****************/
+/**********************indeximg end here*****************/
 
 
 /**********************product list str here*****************/
@@ -608,14 +546,14 @@ span.spe_rightBtn {
 
 .producttitle{
 	width: 100%;
-	height: 30px;
+	height: 40px;
 	overflow: hidden;
 }
 .proleft{
 	width: 45%;
 	height: 15px;
 	float: left;
-	border-bottom: 2px solid #01AEEF;
+	border-bottom: 2px solid #990099;
 }
 
 .centerfont{
@@ -632,7 +570,7 @@ span.spe_rightBtn {
 	width: 45%;
 	height: 15px;
 	float: left;
-	border-bottom: 2px solid #01AEEF;
+	border-bottom: 2px solid #990099;
 }
 .prolist{
 	width: 100%;
@@ -652,6 +590,11 @@ span.spe_rightBtn {
 }
 .prorow img{
 	width: 15px;
+}
+
+.padleft{
+	padding-left: 0px !important;
+	
 }
     		
 /**********************product list end here*****************/

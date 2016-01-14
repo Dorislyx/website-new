@@ -35,18 +35,6 @@
 <!-- header start here -->
 <header>
     <div id="main-wrapper">
-    
-        <!-- top-social start here -->
-        <div id="top-social">
-            <a class="trigger" href="#"></a>
-            <div class="social-panel">
-                <ul>      
-                    <li><a href="services.html"><img src="images/socials/flag_en.png" alt="" /></a></li>
-                    <li><a href="services_pt.html"><img src="images/socials/flag_pt.png" alt="" /></a></li>  
-                </ul>
-            </div>
-        </div>            
-        <!-- top-social end here -->
         
         <!-- logo start here -->
         <div id="logo">
@@ -67,6 +55,19 @@
         </nav>
         <!-- mainmenu end here -->
         
+        <!-- lang start here -->
+        <div id="langenpo">
+	        	<select name="langenpo">
+							<option value="">English</option>
+							<option value="">Posh</option>
+						</select>
+        </div>
+         <!-- lang end here -->
+        
+    </div>
+</header>
+<!-- header end here -->
+        
     </div>
 </header>
 <!-- header end here -->
@@ -78,7 +79,7 @@
 <!-- pagetitle start here -->
 <section id="pagetitle-wrapper">
     <div class="pagetitle-content">    
-    	<h2>ABOUT US</h2>   
+    	<h5>ABOUT US</h5>   
     </div>
 </section>
 <!-- pagetitle end here --> 
@@ -98,7 +99,7 @@
 <section id="content-wrapper">
 	<!--ifo str-->
 		<div class="row">
-    	<div class="twelve columns serv-center">   	
+    	<div class="twelve columns serv-center" style="padding-left: 0px;">   	
         <p style="text-align: left;">Hybroad Vision is a leading expert in innovative digital entertainment solutions for IPTV/OTT/Hybrid STB market worldwide. </p>
         <p style="text-align: left;">Hybroad’s proven record since 2003 has been highly spoken of by clients and strategic partners, with pre-integration reducing time-to-market, manufacturing assuring high quality and speedy logistics, customization enriching user experience, and technical support guaranteeing quick response, we’ve come along with major operators with over 15 million STBs deployed globally in EMEA, Asia, America, etc. </p>
         <p style="text-align: left;">Per the healthy eco-system established with Middleware/CA/DRM/Video Server, Hybroad holds the vision to deliver rich entertainment experience to consumers together with partners and operators in the NGN (Next Generation Network).</p>
@@ -113,9 +114,9 @@
     <!--map-img end-->  
     
     <!--our team str-->
-    <div class="row">
-    	<div class="twelve columns">
-	    	<h3 align="middle" style="color: #01AEEF;">Our Team</h3>
+    <div class="row" id="ourteam">
+    	<div class="twelve columns" style="padding-left: 0px;">
+	    	<h4 align="middle" style="color: #01AEEF;">Our Team</h4>
 	    	<h3 style="border-bottom: 2px solid #F1F1F1;"></h3>
 	    	<div class="ourteam">
 	    		<ul class="team-ifo">
@@ -151,14 +152,14 @@
     
     <!--Our Partners str here-->
     <div class="row">
-    		<div class="twelve columns">
-        	<h3 align="middle" style="color: #01AEEF;">Our Partners</h3>
+    		<div class="twelve columns" style="padding-left: 0px;">
+        	<h4 align="middle" style="color: #01AEEF;">Our Partners</h4>
         	<h3 style="border-bottom: 2px solid #F1F1F1;"></h3>
         </div>
         <div class="twelve columns">
             <h5>CA/DRM</h5>
         </div>
-    	<div class="twelve columns">
+    	<div class="twelve columns" style="padding-left: 0px;">
         	<ul class="client-box">
         		<li><a href="http://www.viaccess-orca.com"><img src="images/sample-images/partners_vo.png" alt="" target="_blank"/></a></li>
                 <li><a href="https://www.verimatrix.com"><img src="images/sample-images/partners_veri.png" alt="" /></a></li>
@@ -175,7 +176,7 @@
             <h5>Middleware</h5>
         </div>
         </div>
-        <div class="twelve columns">
+        <div class="twelve columns" style="padding-left: 0px;">
             <ul class="client-box">
                 <li><a href="https://nowtv.now.com/hdtv"><img src="images/sample-images/partners_nowhd.png" alt="" /></a></li>
                 <li><a href="http://www.chinatelecom-h.com/en/global/home.php"><img src="images/sample-images/partners_chinatelecom.png" alt="" /></a></li>
@@ -195,7 +196,7 @@
          <div>
             <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chipset</h5>
         </div>
-        <div class="twelve columns">
+        <div class="twelve columns" style="padding-left: 0px;">
             <ul class="client-box">
                 <li><a href="https://www.broadcom.com/"><img src="images/sample-images/chipset_brcm.png" alt="" /></a></li>
                 <li><a href="http://www.hisilicon.com/"><img src="images/sample-images/chipset_hisi.png" alt="" /></a></li>
@@ -207,8 +208,8 @@
     
     <!--Our Clients end here-->
     <div class="row">
-    		<div class="twelve columns">
-        	<h3 align="middle" style="color: #01AEEF;">Our Clients</h3>
+    		<div class="twelve columns" style="padding-left: 0px;">
+        	<h4 align="middle" style="color: #01AEEF;">Our Clients</h4>
         	<h3 style="border-bottom: 2px solid #F1F1F1;"></h3>
        </div>
         <div class="Clients-wrap">
@@ -232,10 +233,11 @@
 </section>
 <!-- maincontent end here -->
 
+
 <!-- footer start here -->
 <footer>
     <div class="row">
-        <div class="three columns mobile-two">
+        <div class="three columns mobile-two padleft" style="padding-left: 0 @import;">
             <img src="images/hybroad_logo_bottom.png" alt="" class="img-left" />
            <p class="copyright-text">Copyright&copy; 2015, Hybroad Vision Technology Co.Ltd</p> 
         </div>
@@ -257,8 +259,7 @@
         </div>
         <div class="three columns mobile-two">
             <h5>Official</h5>
-            <ul id="flck-thumb" class="thumbs">
-            <li class="no-image"></li>
+            <ul id="flck-thumb" class="thumbs"><li class="no-image"></li>
             <li><a href="https://www.facebook.com/hybroad">Fackbook</a></li>
             <li><a href="http://www.linkedin.com/company/2826354?">Linkedin</a></li>
             </ul>

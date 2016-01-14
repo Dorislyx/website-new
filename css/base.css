@@ -40,8 +40,6 @@ overflow:0;
 
 /***** Typography *****/
 h1,h2,h3,h4,h5,h6 {
-font-family:'PT Sans', Georgia, Arial;
-font-weight:700;
 margin:0;
 padding:0;
 }
@@ -101,7 +99,7 @@ padding:0;
 p {
 line-height:24px;
 margin:0;
-padding:0 0 20px;
+padding:0 0 10px;
 }
 
 sup,sub {
@@ -1187,8 +1185,7 @@ margin-bottom:5px;
 }
 
 .pagenum{
-	padding-left: 40px;
-	width: 660px;
+	width:830px;
 	height: 30px;
 	overflow: hidden;
 }
@@ -1197,6 +1194,9 @@ margin-bottom:5px;
 }
 .next{
 	float: right;
+}
+.pagenum a{
+	text-decoration: none;
 }
 /***** 404 Page Styling *****/
 #error-wrapper{
@@ -2130,7 +2130,7 @@ width: 100%;
 }
 
 .caption-type1 > div, .caption-type2 > div, .caption-type3 > div, .caption-type4 > div {
-width:960px;
+width:1040px;
 margin:0 auto;
 }
 

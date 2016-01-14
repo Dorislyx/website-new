@@ -30,23 +30,15 @@
 <script src="js/jflickrfeed.min.js"></script>
 <script src="js/faq-functions.js"></script>
 <script src="js/theme-functions.js"></script>
-<script src="js/carrousel.js"></script>
+<script src="js/jquery.DB_rotateRollingBanner.min.js"></script>
 <script>
 $(document).ready(function() { 
-//  //Camera Jquery
-//  $('#camera-slide').camera({
-//      thumbnails: false,
-//      hover: false,
-//      pagination: false,
-//  });	  
-  
-	$('#dg-container').carrousel({
-	    current: 0,
-	    autoplay: true,
-	    interval: 3000
-	});
-       
-    
+    //Camera Jquery
+    $('#camera-slide').camera({
+        thumbnails: false,
+        hover: false,
+        pagination: false,
+    });	  	
 });
 </script> 
 <style>   
@@ -61,21 +53,7 @@ $(document).ready(function() {
 <body>
 <!-- header start here -->
 <header>
-    <div id="main-wrapper">
-    
-        <!-- top-social start here -->
-      <div id="top-social">
-          <a class="trigger" href="#"></a>
-            <div class="social-panel">
-                <ul>
-                    <li><a href="index.html"><img src="images/socials/flag_en.png" alt="" /></a></li>
-                    <li><a href="index_pt.html"><img src="images/socials/flag_pt.png" alt="" /></a></li>
-                </ul>
-            </div>
-        </div>
-            
-        <!-- top-social end here -->
-        
+    <div id="main-wrapper">       
         <!-- logo start here -->
         <div id="logo">
             <a href="index_pt.html"><img src="images/hybroad_logo.png" alt="mainlogo" /></a>
@@ -93,87 +71,107 @@ $(document).ready(function() {
                <li><a href="contact_pt.html">CONTACT US</a></li>
             </ul>
         </nav>
-        <!-- mainmenu end here -->      
+        <!-- mainmenu end here -->    
+        
+        <!-- lang start here -->
+        <div id="langenpo">
+	        	<select name="langenpo">
+							<option value="">English</option>
+							<option value="">Posh</option>
+						</select>
+        </div>
+         <!-- lang end here -->
     </div>
 </header>
 <!-- header end here -->
 
 <!-- 3dbanner start here -->
-<div class="banner">
-	<section id="dg-container" class="dg-container">
-	    <div class="dg-wrapper">
-	        <a href="#" link="#">
-	            <img src="images/3dbanner/1.jpg">
-	        </a>
-	        <a href="#" link="#">
-	            <img src="images/3dbanner/2.jpg">
-	        </a>
-	        <a href="#" link="#">
-	            <img src="images/3dbanner/3.jpg">
-	        </a>
-	        <a href="#" link="#">
-	            <img src="images/3dbanner/4.jpg">
-	        </a>
-	        <a href="#" link="#">
-	            <img src="images/3dbanner/5.jpg">
-	        </a>
-	    </div>
-	    <ol class="button" id="lightButton">
-	        <li index="0">
-	        <li index="1">
-	        <li index="2">
-	        <li index="3">
-	        <li index="4">
-	    </ol>
-	    <nav>
-	        <span class="dg-prev"></span>
-	        <span class="dg-next"></span>
-	    </nav>
-	</section>
-</div>
+<!--<div class="banner">
+	<div id="d_tab29">
+		<ul class="d_img">				 
+			<li class="d_pos1"><a href="#"><img src="images/3dbanner/img9.jpg" alt=""/><div class="cont">ddfdf</div></a></li>
+			<li class="d_pos2"><a href="#"><img src="images/3dbanner/img10.jpg" alt=""/></a></li>
+			<li class="d_pos3"><a href="#"><img src="images/3dbanner/img1.jpg" alt=""/></a></li>
+			<li class="d_pos4"><a href="#"><img src="images/3dbanner/img2.jpg" alt=""/></a></li>
+			<li class="d_pos5"><a href="#"><img src="images/3dbanner/img3.jpg" alt=""/></a></li>
+		</ul>	
+		<ul class="d_menu">
+			 
+		</ul>
+		<p class="d_prev"><img src="images/3dbanner/prev.png" alt=""></p>
+		<p class="d_next"><img src="images/3dbanner/next.png" alt=""></p>
+	</div>
+</div>-->
 <!-- 3dbanner end here -->
+
+<!-- slideshow start here -->
+<section id="slideshow-wrapper">
+    <div class="camera_wrap" id="camera-slide">
+     
+     
+        <!-- slide 1 here -->
+     <div data-src="images/slideshow/bg-slide00.jpg">		 
+			<div class="caption-type1 moveFromRight">
+                <h1>Newest Product</h1>
+                <p>New Generation 2 STB for Fetch TV, Customized and short time-to-market product.<br>
+				  1GB RAM, 1TB HDD, Three DVB-T Tuners.<br>
+				  OTT, HLS, DLNA, Apps ingrated: Netflix, YouTube, Facebook, Twitter.   
+            </div>
+			<div class="caption-type1 moveFromLeft">
+                <img src="images/slideshow/slide00010.png" alt="" />
+            </div>
+        </div>
+        <div data-src="images/slideshow/bg2.png">
+        </div>
+            <!-- slide 2 here -->
+        <div data-src="images/slideshow/bg1.png">
+  </div>
+</section>
+<!-- slideshow end here -->
 
 <!-- maincontent start here -->
 <section id="content-wrapper">
-    <div class="row">
-        <div class="three columns mobile-two">
-            <h5>WHO WE ARE</h5>
-			<div class="link-zoom">
-                <a href="aboutus.html" target="_self">
-                    <img src="images/sample-images/bt1.png" alt="" class="fade" />
+	<!-- indeximg start here -->
+    <div class="row indeximg">
+    	<ul class="imglist">
+    		<li>
+    			<h6 class="indexcenter">WHO WE ARE</h6>
+						<div>
+                <a href="services_pt.html" target="_self"">
+                    <img src="images/sample-images/bt1.png" alt=""/>
                 </a>						
             </div>
-
-        </div>
-        <div class="three columns mobile-two">
-            <h5>FIND PRODUCT</h5>
-            <div class="link-zoom">
-                <a href="strength.html" target="_self">
-                    <img src="images/sample-images/bt3.png" alt="" class="fade" />
-                </a>
-				
+    		</li>
+    		<li>
+    			<h6 class="indexcenter">FIND PRODUCT</h6>
+						<div class="link-zoom">
+                <a href="products_pt.html" target="_self">
+                    <img src="images/sample-images/bt3.png" alt=""/>
+                </a>						
             </div>
-        </div>
-        <div class="three columns mobile-two">
-           <h5>WHY US</h5>
-            <div class="link-zoom">
-                <a href="products.html" target="_self">
-                	<img src="images/sample-images/bt2.png" alt="" class="fade" />
-                    
-                </a> 		
+    		</li>
+    		<li>
+    			<h6 class="indexcenter">WHY US</h6>
+						<div class="link-zoom">
+                <a href="aboutus_pt.html" target="_self">
+                    <img src="images/sample-images/bt2.png" alt=""/>
+                </a>						
             </div>
-        </div>
-        <div class="three columns mobile-two">
-            <h5>OUR TEAM</h5>
-            <div class="link-zoom">
-                <a href="Cases1.html" target="_self">
-                    <img src="images/sample-images/bt4.png" alt="" class="fade" />
-                </a>				
+    		</li>
+    		<li>
+    			<h6 class="indexcenter">OUR TEAM</h6>
+						<div class="link-zoom">
+                <a href="services_pt.html" target="_self">
+                    <img src="images/sample-images/bt4.png" alt=""/>
+                </a>						
             </div>
-        </div>
+    		</li>
+    	</ul>
+       
     </div>
-    <!--bottom up layer architecture describe-->
-	
+    <!-- indeximg end here -->
+    
+		<!-- latest str here -->
 	  <div id="latest-news">
 	        <h5>Latest News</h5>
 	        <ul>
@@ -184,10 +182,11 @@ $(document).ready(function() {
 	        			Hybroad Vision, Sao Paulo, Brazil, Mar 10, 2014 The exhibition of TV Connect 2015 kicked off on April 28, where gathered a constant stream of visitors to visit compact arrangement of the booth,
 	        			 all of which showed the enormous influence of the world's leading IPTV / OTT industry exhibition. 
 	        		</p>
+	        		<p class="readmore"><a href="news_pt.html" style="color: #01AEEF; text-decoration: none;">&#62&#62&#62Read more</a></p>
 	        	</li>
 	        </ul>
 	  </div>
-    
+    <!-- latest end here -->
     
 </section>
 <!-- maincontent end here -->
@@ -196,7 +195,7 @@ $(document).ready(function() {
 <!-- footer start here -->
 <footer>
     <div class="row">
-        <div class="three columns mobile-two">
+        <div class="three columns mobile-two" style="padding-left: 0px;">
             <img src="images/hybroad_logo_bottom.png" alt="" class="img-left" />
            <p class="copyright-text">Copyright&copy; 2015, Hybroad Vision Technology Co.Ltd</p> 
         </div>
