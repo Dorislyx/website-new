@@ -242,8 +242,12 @@ float:left;
 color:#565555;  
 list-style:none;
 position:relative;
-padding:10px 12px 10px 12px;
+/*padding:10px 12px 10px 12px;*/
+text-align: center;
+height: 38px;
+line-height: 38px;
 z-index:190;
+width: 86px;
 }
 
 #mainmenu ul li:hover {
@@ -253,6 +257,7 @@ background-color:#FFFFFF;             /*#484848*/
 border-radius: 4px;
 position:relative;
 z-index:200;	
+
 }
 /*navi font color*/
 #mainmenu ul li a, #mainmenu ul li a:visited {
@@ -267,7 +272,9 @@ float:left;
 /**hover about**/
 #mainmenu ul li a:hover {
 color:#23C0FB;
+font-size: 16px;
 text-decoration:none;
+transition: 0.3s;
 }
 /**about selected**/
 #mainmenu ul li.selected a {
