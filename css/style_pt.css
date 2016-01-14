@@ -242,12 +242,8 @@ float:left;
 color:#565555;  
 list-style:none;
 position:relative;
-/*padding:10px 12px 10px 12px;*/
-text-align: center;
-height: 38px;
-line-height: 38px;
+padding:10px 12px 10px 12px;
 z-index:190;
-width: 86px;
 }
 
 #mainmenu ul li:hover {
@@ -272,9 +268,16 @@ float:left;
 /**hover about**/
 #mainmenu ul li a:hover {
 color:#23C0FB;
-font-size: 16px;
+/*font-size: 15px;*/
 text-decoration:none;
-transition: 0.3s;
+transition: 0.2s;
+-ms-transition: 0.2s;
+-webkit-transition: 0.2s;
+-moz-transition: 0.2s;
+transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+-webkit-transform: scale(1.2,1.2);
+-moz-transform: scale(1.2,1.2);
 }
 /**about selected**/
 #mainmenu ul li.selected a {
@@ -302,6 +305,8 @@ color:#414040;
 #mainmenu ul li.selected li a:hover {
 text-decoration:none;
 color:#414040;
+font-size: 15px\8;
+/*font-size: 15px*/
 }
 
 #mainmenu ul li.dropdown a:hover {
