@@ -536,6 +536,7 @@ span.spe_rightBtn {
 #hydrid{
 	width: 100%;
 	height: 300px;
+	margin-top: 30px;
 	/*background-color: #01AEEF;*/
 }
 
@@ -579,9 +580,19 @@ span.spe_rightBtn {
 }
 .prolist li{
 	width: 25%;
+	height: 220px;
+	float: left;
+}
+.prolist li a{
+	/*display: inline-block;*/
+	width: 100%;
 	height: 200px;
 	border: 1px solid #CCCCCC;
 	float: left;
+}
+.prolist li p{
+	text-align: center;
+	margin-top: 210px;
 }
 .prorow{
 	width: 100%;

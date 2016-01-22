@@ -536,6 +536,9 @@ display:none;
 	padding-bottom: 10px;
 	text-align: center;
 }
+.latest-news-ifo a{
+	text-decoration: none;
+}
 /***** About Area Stylesheet *****/
 .heading-thin {
 font-weight:400;
@@ -973,15 +976,17 @@ text-decoration:none;
 }
 
 .post-content span{
-	font-size: 16px;
+	padding-top: 5px;
+	font-size: 14px;
 	color: #999999;
 }
 .post-content p a{
 	color: #01AEEF;
 	text-decoration: none;
+	font-size: 14px;
 }
 .readmore{
-	font-size: 16px;
+	font-size: 14px;
 	color: #01AEEF;
 	float: right;
 }
